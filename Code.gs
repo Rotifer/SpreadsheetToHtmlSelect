@@ -1,4 +1,5 @@
 // Display the GUI
+// Execute this function from the script editor ro run the application.
 // Note the call to "setRngName()". This ensures that all newly added
 // values are included in the dropdown list when the GUI is displayed
 function displayGUI() {
