@@ -19,9 +19,7 @@ function getValuesForRngName(rngName) {
   return rngValues.sort();
 }
 
-/*
-Expand the range defined by the name as rows are added
-*/
+//Expand the range defined by the name as rows are added
 function setRngName() {
   var ss = SpreadsheetApp.getActiveSpreadsheet(),
       sh = ss.getSheetByName('DropdownValues'),
